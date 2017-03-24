@@ -4,7 +4,7 @@
   "description": "server implementation for Accrevo Company API",
   "main": "server.js",
   "scripts": {
-    "test": "echo 'Hello world!'"
+    "start": "node server.js"
   },
   "author": "blead",
   "license": "ISC",
