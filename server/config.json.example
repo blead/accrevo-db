@@ -1,0 +1,23 @@
+{
+  "server": {
+    "port": 80,
+    "log": {
+      "get": "true",
+      "post": "true",
+      "badRequest": "true",
+      "accessDenied": "true",
+      "notFound": "true",
+      "error": "true"
+    }
+  },
+  "db": {
+    "connectionLimit": 10,
+    "connectTimeout": 30000,
+    "acquireTimeout": 30000,
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "user",
+    "password": "password",
+    "database": "accrevocompany"
+  }
+}
