@@ -27,7 +27,7 @@ cd accrevo-db/db
 
 Build an image:
 ```
-Docker build -t {image-name} .
+docker build -t {image-name} .
 ```
 - `image-name` can be anything. This is used to run the image on the next step.
 
